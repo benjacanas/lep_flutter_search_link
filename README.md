@@ -1,5 +1,5 @@
 # Como correr el proyecto
-
+## Comenzar por:
 ```
 flutter upgrade
 ```
@@ -8,11 +8,11 @@ flutter upgrade
 flutter pub get
 ```
 
-# Para correr el proyecto se puede usar la configuracio de lanzado de vscode (recomendado) o con el cli de flutter
+## Para correr el proyecto se puede usar la configuracio de lanzado de vscode (recomendado) o con el cli de flutter
 
-## Configuracio de lanzado de vscode:
+### Configuracio de lanzado de vscode:
 Usar la configuracion llamada "Flutter (Puerto 1234)" y despues elegir chrome
-## Flutter cli:
+### Flutter cli:
 ```
 flutter run -d chrome --web-port 1234
 ```
