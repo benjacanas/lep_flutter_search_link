@@ -1,16 +1,20 @@
-# lep_flutter_search_link
+# Como correr el proyecto
 
-A new Flutter project.
+```
+flutter upgrade
+```
 
-## Getting Started
+```
+flutter pub get
+```
 
-This project is a starting point for a Flutter application.
+# Para correr el proyecto se puede usar la configuracio de lanzado de vscode (recomendado) o con el cli de flutter
 
-A few resources to get you started if this is your first Flutter project:
+## Configuracio de lanzado de vscode:
+Usar la configuracion llamada "Flutter (Puerto 1234)" y despues elegir chrome
+## Flutter cli:
+```
+flutter run -d chrome --web-port 1234
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+*la explicacion puede ser muy vaga, preguntar cualquier cosa*
